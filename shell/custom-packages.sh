@@ -56,4 +56,4 @@
 # IPSec VPN 服务器
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # SmartDNS 服务器
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES smartdns luci-app-smartdns"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES smartdns luci-app-smartdns"
