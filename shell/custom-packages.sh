@@ -59,4 +59,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
 # IPSec VPN 服务器
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES strongswan"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES strongswan strongswan-swanctl luci-app-strongswan"
