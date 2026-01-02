@@ -61,3 +61,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # OpenVPN 服务器
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES -openvpn-openssl luci-i18n-openvpn-server-zh-cn"
+# OpenVPN 服务器
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ddns-go-zh-cn"
