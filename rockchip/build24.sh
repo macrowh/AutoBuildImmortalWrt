@@ -66,9 +66,6 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-app-openvpn luci-i18n-openvpn-zh-cn"
 PACKAGES="$PACKAGES luci-app-openvpn-server luci-i18n-openvpn-server-zh-cn"
 PACKAGES="$PACKAGES luci-app-ddns-go luci-i18n-ddns-go-zh-cn"
-PACKAGES="$PACKAGES luci-app-softethervpn luci-i18n-softethervpn-zh-cn"
-PACKAGES="$PACKAGES luci-app-softether"
-PACKAGES="$PACKAGES luci-app-ipsec-vpnd luci-i18n-ipsec-vpnd-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
