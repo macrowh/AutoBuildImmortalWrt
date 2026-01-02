@@ -62,9 +62,9 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 #VPN相关软件
 # PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
-# PACKAGES="$PACKAGES  luci-i18n-ipsec-vpnd-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-softethervpn-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-softethervpn-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
