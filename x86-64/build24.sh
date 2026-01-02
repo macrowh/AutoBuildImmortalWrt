@@ -65,9 +65,9 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-softethervpn-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
-PACKAGES="$PACKAGES luci-app-ddns-go"
-PACKAGES="$PACKAGES luci-app-softethervpn"
-PACKAGES="$PACKAGES luci-app-ipsec-vpnd"
+PACKAGES="$PACKAGES luci-app-ddns-go luci-i18n-ddns-go-zh-cn"
+PACKAGES="$PACKAGES luci-app-softethervpn luci-i18n-softethervpn-zh-cn"
+PACKAGES="$PACKAGES luci-app-ipsec-vpnd luci-i18n-ipsec-vpnd-zh-cn"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
