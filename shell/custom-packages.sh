@@ -57,3 +57,8 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
+# VPN软件
+# PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-softethervpn-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
