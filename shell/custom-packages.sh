@@ -59,5 +59,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
 # IPSec VPN 服务器
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
-# OpenVPN
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openvpn-server-zh-cn"
+# OpenVPN 服务器
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES openvpn-openssl luci-i18n-openvpn-server-zh-cn"
